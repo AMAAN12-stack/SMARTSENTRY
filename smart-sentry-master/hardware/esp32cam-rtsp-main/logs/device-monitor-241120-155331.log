@@ -1,0 +1,325 @@
+[159642][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[164645][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[164647][V][Parsing.cpp:122] _parseRequest(): method: GET url: /restart search: 
+[164648][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[164649][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[164649][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[164650][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[164651][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[164651][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[164652][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[164653][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[164653][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[164654][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+[164656][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[164656][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[164658][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[164659][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[164659][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[164660][V][Parsing.cpp:250] _parseRequest(): headerValue: en-US,en;q=0.9
+[164661][V][Parsing.cpp:277] _parseArguments(): args: 
+[164661][V][Parsing.cpp:260] _parseRequest(): Request: /restart
+[164662][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[164662][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Requested a non-existing page '/restart'
+[169474][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[174477][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[174479][V][Parsing.cpp:122] _parseRequest(): method: GET url: / search: 
+[174479][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[174480][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[174481][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[174481][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[174482][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[174483][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[174484][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[174484][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+[174486][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[174487][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[174488][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[174489][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[174490][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[174491][V][Parsing.cpp:250] _parseRequest(): headerValue: en-US,en;q=0.9
+[174491][V][Parsing.cpp:277] _parseArguments(): args: 
+[174492][V][Parsing.cpp:260] _parseRequest(): Request: /
+[174492][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[174493][V][main.cpp:73] handle_root(): Handle root
+[253127][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[253128][V][Parsing.cpp:122] _parseRequest(): method: GET url: /stream search: 
+[253129][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[253129][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[253130][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[253131][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[253131][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[253132][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[253133][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[253134][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+[253135][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[253136][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[253137][V][Parsing.cpp:249] _parseRequest(): headerName: Referer
+[253138][V][Parsing.cpp:250] _parseRequest(): headerValue: http://192.168.29.146/
+[253139][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[253139][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[253140][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[253141][V][Parsing.cpp:250] _parseRequest(): headerValue: en-US,en;q=0.9
+[253141][V][Parsing.cpp:277] _parseArguments(): args: 
+[253142][V][Parsing.cpp:260] _parseRequest(): Request: /stream
+[253142][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[253143][V][main.cpp:191] handle_stream(): handle_stream
+[253144][V][main.cpp:198] handle_stream(): starting streaming
+[305224][E][WiFiClient.cpp:429] write(): fail on fd 51, errno: 104, "Connection reset by peer"
+[305225][V][main.cpp:213] handle_stream(): client disconnected
+[305226][V][main.cpp:215] handle_stream(): stopped streaming
+[305227][D][WiFiClient.cpp:536] connected(): Disconnected: RES: 0, ERR: 128
+[305231][D][WiFiClient.cpp:536] connected(): Disconnected: RES: 0, ERR: 128
+[305234][D][WiFiClient.cpp:536] connected(): Disconnected: RES: 0, ERR: 128
+[311196][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[311197][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[311198][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[311198][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[311199][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[311200][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[311200][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[311201][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[311202][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[311202][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+[311204][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[311205][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[311206][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[311207][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[311207][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[311208][V][Parsing.cpp:250] _parseRequest(): headerValue: en-US,en;q=0.9
+[311209][V][Parsing.cpp:277] _parseArguments(): args: 
+[311209][V][Parsing.cpp:260] _parseRequest(): Request: /snapshot
+[311210][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[311210][V][main.cpp:162] handle_snapshot(): handle_snapshot
+[311256][W][WebServer.cpp:425] send(): content length is zero
+[311392][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[311829][V][Parsing.cpp:122] _parseRequest(): method: GET url: /favicon.ico search: 
+[311830][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[311830][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[311831][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[311832][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[311833][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[311833][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+[311835][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[311835][V][Parsing.cpp:250] _parseRequest(): headerValue: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+[311836][V][Parsing.cpp:249] _parseRequest(): headerName: Referer
+[311837][V][Parsing.cpp:250] _parseRequest(): headerValue: http://192.168.29.146/snapshot
+[311838][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[311838][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[311839][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[311840][V][Parsing.cpp:250] _parseRequest(): headerValue: en-US,en;q=0.9
+[311840][V][Parsing.cpp:277] _parseArguments(): args: 
+[311841][V][Parsing.cpp:260] _parseRequest(): Request: /favicon.ico
+[311841][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[311842][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Requested a non-existing page '/favicon.ico'
+[510314][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[510320][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[510321][V][Parsing.cpp:249] _parseRequest(): headerName: user-agent
+[510321][V][Parsing.cpp:250] _parseRequest(): headerValue: Dart/3.4 (dart:io)
+[510322][V][Parsing.cpp:249] _parseRequest(): headerName: accept-encoding
+[510322][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[510323][V][Parsing.cpp:249] _parseRequest(): headerName: host
+[510324][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[510324][V][Parsing.cpp:277] _parseArguments(): args: 
+[510325][V][Parsing.cpp:260] _parseRequest(): Request: /snapshot
+[510325][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[510326][V][main.cpp:162] handle_snapshot(): handle_snapshot
+[510376][W][WebServer.cpp:425] send(): content length is zero
+[551431][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[551432][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[551433][V][Parsing.cpp:249] _parseRequest(): headerName: user-agent
+[551433][V][Parsing.cpp:250] _parseRequest(): headerValue: Dart/3.4 (dart:io)
+[551434][V][Parsing.cpp:249] _parseRequest(): headerName: accept-encoding
+[551435][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[551435][V][Parsing.cpp:249] _parseRequest(): headerName: host
+[551436][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[551436][V][Parsing.cpp:277] _parseArguments(): args: 
+[551437][V][Parsing.cpp:260] _parseRequest(): Request: /snapshot
+[551437][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[551438][V][main.cpp:162] handle_snapshot(): handle_snapshot
+[551480][W][WebServer.cpp:425] send(): content length is zero
+[556359][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[556360][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[556361][V][Parsing.cpp:249] _parseRequest(): headerName: user-agent
+[556361][V][Parsing.cpp:250] _parseRequest(): headerValue: Dart/3.4 (dart:io)
+[556362][V][Parsing.cpp:249] _parseRequest(): headerName: accept-encoding
+[556363][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[556363][V][Parsing.cpp:249] _parseRequest(): headerName: host
+[556364][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[556364][V][Parsing.cpp:277] _parseArguments(): args: 
+[556365][V][Parsing.cpp:260] _parseRequest(): Request: /snapshot
+[556365][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[556366][V][main.cpp:162] handle_snapshot(): handle_snapshot
+[556438][W][WebServer.cpp:425] send(): content length is zero
+[561267][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[561272][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[561273][V][Parsing.cpp:249] _parseRequest(): headerName: user-agent
+[561274][V][Parsing.cpp:250] _parseRequest(): headerValue: Dart/3.4 (dart:io)
+[561275][V][Parsing.cpp:249] _parseRequest(): headerName: accept-encoding
+[561275][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[561276][V][Parsing.cpp:249] _parseRequest(): headerName: host
+[561276][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[561277][V][Parsing.cpp:277] _parseArguments(): args: 
+[561278][V][Parsing.cpp:260] _parseRequest(): Request: /snapshot
+[561278][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[561279][V][main.cpp:162] handle_snapshot(): handle_snapshot
+[561356][W][WebServer.cpp:425] send(): content length is zero
+[678012][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[678014][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[678015][V][Parsing.cpp:249] _parseRequest(): headerName: user-agent
+[678015][V][Parsing.cpp:250] _parseRequest(): headerValue: Dart/3.4 (dart:io)
+[678016][V][Parsing.cpp:249] _parseRequest(): headerName: accept-encoding
+[678016][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[678017][V][Parsing.cpp:249] _parseRequest(): headerName: host
+[678018][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[678018][V][Parsing.cpp:277] _parseArguments(): args: 
+[678019][V][Parsing.cpp:260] _parseRequest(): Request: /snapshot
+[678019][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[678020][V][main.cpp:162] handle_snapshot(): handle_snapshot
+[678069][W][WebServer.cpp:425] send(): content length is zero
+[684567][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[684568][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[684569][V][Parsing.cpp:249] _parseRequest(): headerName: user-agent
+[684569][V][Parsing.cpp:250] _parseRequest(): headerValue: Dart/3.4 (dart:io)
+[684570][V][Parsing.cpp:249] _parseRequest(): headerName: accept-encoding
+[684571][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[684571][V][Parsing.cpp:249] _parseRequest(): headerName: host
+[684572][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[684572][V][Parsing.cpp:277] _parseArguments(): args: 
+[684573][V][Parsing.cpp:260] _parseRequest(): Request: /snapshot
+[684574][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[684574][V][main.cpp:162] handle_snapshot(): handle_snapshot
+[684627][W][WebServer.cpp:425] send(): content length is zero
+[693982][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[693983][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[693984][V][Parsing.cpp:249] _parseRequest(): headerName: user-agent
+[693984][V][Parsing.cpp:250] _parseRequest(): headerValue: Dart/3.4 (dart:io)
+[693985][V][Parsing.cpp:249] _parseRequest(): headerName: accept-encoding
+[693986][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[693986][V][Parsing.cpp:249] _parseRequest(): headerName: host
+[693987][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[693987][V][Parsing.cpp:277] _parseArguments(): args: 
+[693988][V][Parsing.cpp:260] _parseRequest(): Request: /snapshot
+[693989][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[693989][V][main.cpp:162] handle_snapshot(): handle_snapshot
+[694063][W][WebServer.cpp:425] send(): content length is zero
+[858430][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[863433][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[863435][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[863436][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[863436][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[863437][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[863438][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[863438][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[863439][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[863439][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[863440][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[863441][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[863441][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+[863443][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[863444][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[863445][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[863446][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[863447][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[863447][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[863448][V][Parsing.cpp:277] _parseArguments(): args: 
+[863449][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[863449][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[863960][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[863961][V][Parsing.cpp:122] _parseRequest(): method: GET url: /favicon.ico search: 
+[863962][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[863962][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[863963][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[863964][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[863965][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[863965][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+[863967][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[863967][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[863968][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[863968][V][Parsing.cpp:250] _parseRequest(): headerValue: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+[863970][V][Parsing.cpp:249] _parseRequest(): headerName: Referer
+[863970][V][Parsing.cpp:250] _parseRequest(): headerValue: http://192.168.29.146/switch
+[863971][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[863972][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[863973][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[863973][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[863974][V][Parsing.cpp:277] _parseArguments(): args: 
+[863975][V][Parsing.cpp:260] _parseRequest(): Request: /favicon.ico
+[863976][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[863976][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Requested a non-existing page '/favicon.ico'
+[870102][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[875106][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[875107][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[875108][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[875108][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[875109][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[875110][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[875110][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[875111][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[875112][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[875112][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[875113][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[875113][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[875114][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[875115][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+[875117][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[875117][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[875119][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[875119][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[875120][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[875121][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[875122][V][Parsing.cpp:277] _parseArguments(): args: 
+[875122][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[875123][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[878910][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[890995][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[895998][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[896000][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[896001][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[896001][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[896002][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[896002][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[896003][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[896004][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[896004][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[896005][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[896005][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[896006][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[896007][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[896008][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+[896010][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[896010][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[896012][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[896012][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[896013][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[896014][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[896015][V][Parsing.cpp:277] _parseArguments(): args: 
+[896015][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[896016][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[896020][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[898367][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[898368][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[898369][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[898369][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[898370][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[898371][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[898371][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[898372][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[898372][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[898373][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[898374][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[898375][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[898375][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+[898377][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[898378][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[898379][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[898380][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[898381][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[898381][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[898382][V][Parsing.cpp:277] _parseArguments(): args: 
+[898383][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[898383][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[898441][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146

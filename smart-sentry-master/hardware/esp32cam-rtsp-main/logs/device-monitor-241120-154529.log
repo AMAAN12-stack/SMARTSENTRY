@@ -1,0 +1,1900 @@
+'hm' with value: '0'
+|       |-- 'vm' with value: '0'
+|       |-- 'dcw' with value: '1'
+|       \-- 'cb' with value: '0'
+\-- [hidden]
+[ 21432][V][main.cpp:220] initialize_camera(): initialize_camera
+[ 21432][I][main.cpp:222] initialize_camera(): Frame size: VGA (640x480)
+[ 21433][I][main.cpp:224] initialize_camera(): JPEG quality: 14
+[ 21433][I][main.cpp:226] initialize_camera(): Frame duration: 200 ms
+E (21236) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)
+E (21236) gdma: gdma_disconnect(299): no peripheral is connected to the channel
+[ 21449][E][main.cpp:417] setup(): Failed to initialize camera. Error: 0x105. Frame size: VGA (640x480), frame rate: 200 ms, jpeg quality: 14
+[ 21951][V][main.cpp:220] initialize_camera(): initialize_camera
+[ 21951][I][main.cpp:222] initialize_camera(): Frame size: VGA (640x480)
+[ 21952][I][main.cpp:224] initialize_camera(): JPEG quality: 14
+[ 21952][I][main.cpp:226] initialize_camera(): Frame duration: 200 ms
+Camera probe failed with error 0x105E (21755) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)
+E (21755) gdma: gdma_disconnect(299): no peripheral is connected to the channel
+[ 21972][E][main.cpp:417] setup(): Failed to initialize camera. Error: 0x105. Frame size: VGA (640x480), frame rate: 200 ms, jpeg quality: 14
+[ 22473][V][main.cpp:220] initialize_camera(): initialize_camera
+[ 22473][I][main.cpp:222] initialize_camera(): Frame size: VGA (640x480)
+[ 22474][I][main.cpp:224] initialize_camera(): JPEG quality: 14
+[ 22474][I][main.cpp:226] initialize_camera(): Frame duration: 200 ms
+Camera probe failed with error 0x105E (22277) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)
+E (22277) gdma: gdma_disconnect(299): no peripheral is connected to the channel
+[ 22494][E][main.cpp:417] setup(): Failed to initialize camera. Error: 0x105. Frame size: VGA (640x480), frame rate: 200 ms, jpeg quality: 14
+AP password was not set in configuration
+State changing from: 0 to 1
+[ 23002][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 0 - WIFI_READY
+Setting up AP: ESP32CAM-RTSP-7c3789da3bd8
+With default password: <hidden>
+[ 23045][V]WiFirduintarted
+[ 23056][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 10 - AP_START
+AP IP address: 192.168.4.1
+3096] _arden): opped
+[ 23060][D][WiFiGeneric.c[p p2:1043060i c_ka(r): Ar): ASdu
+ino Event: 11 - AP_STOP
+[ 23061][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 10 - AP_START
+AP password was not set.
+WiFi SSID was not set.
+Will stay in AP mode.
+State changed from: 0 to 1
+Connection to AP.
+[ 7810iGeneric.cpp] _ino_event_b(): AP StatAC:68:
+[ 78101][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 12 - AP_STACONNECTED
+s:f0:92:57, AID: 1
+[ 94458][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 13 - AP_STADISCONNECTED
+Disconnected from AP.
+4643][V][WiFiGeneric.] _arduino_evenConnected: MAC: 90:e8:68:f0:92:57, AID: 1
+[ 94644][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 12 - AP_STACONNECTED
+sconnected: MAC: 90:e8:68:f0:92:57, AID: 1
+[ 94765][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 13 - AP_STADISCONNECTED
+97204408] _arnt_cb(): AP StatiConnected:: 90:e: 1
+[ 97206][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 12 - AP_STACONNECTED
+2139][V][WiFiGennnected: MAC: 9a:f1:3a:19:75:89, AID: 2
+[102140][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 12 - AP_STACONNECTED
+): AP Stat[102665][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 14 - AP_STAIPASSIGNED
+pp:422] duino_evencb(): AP S[103652][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 14 - AP_STAIPASSIGNED
+5794][V][Wt_cb(): APon IP Aigned:192168.4.3
+[105795][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 14 - AP_STAIPASSIGNED
+[106340][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[106343][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[106344][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[106344][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[106345][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[106346][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[106347][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[106347][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[106348][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[106349][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[106349][V][Parsing.cpp:277] _parseArguments(): args: 
+[106350][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[106351][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[106352][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[106353][W][WebServer.cpp:425] send(): content length is zero
+[106359][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[106462][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[106463][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[106464][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[106465][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[106465][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[106466][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[106467][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[106467][V][Parsing.cpp:277] _parseArguments(): args: 
+[106468][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[106469][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[106470][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[106471][W][WebServer.cpp:425] send(): content length is zero
+[106477][D][WiFiClient.cpp:536] connected(): Disconnected: RES: 0, ERR: 128
+[106479][D][WiFiClient.cpp:536] connected(): Disconnected: RES: 0, ERR: 128
+[106652][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[107935][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[107936][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[107936][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[107937][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[107938][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[107939][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[107939][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[107940][V][Parsing.cpp:277] _parseArguments(): args: 
+[107941][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[107941][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[107942][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[107943][W][WebServer.cpp:425] send(): content length is zero
+[108259][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[108421][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[108422][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[108422][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[108423][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[108424][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[108425][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[108425][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[108426][V][Parsing.cpp:277] _parseArguments(): args: 
+[108427][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[108427][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[108428][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[108429][W][WebServer.cpp:425] send(): content length is zero
+[108984][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[108988][V][Parsing.cpp:122] _parseRequest(): method: GET url: / search: 
+[108989][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[108989][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[108990][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[108990][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[108991][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[108992][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[108993][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[108993][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 13; CPH2219 Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.107 Mobile Safari/537.36
+[108995][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[108996][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[108998][V][Parsing.cpp:249] _parseRequest(): headerName: X-Requested-With
+[108998][V][Parsing.cpp:250] _parseRequest(): headerValue: com.google.android.captiveportallogin
+[108999][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[109000][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[109001][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[109001][V][Parsing.cpp:250] _parseRequest(): headerValue: en-US,en;q=0.9
+[109002][V][Parsing.cpp:277] _parseArguments(): args: 
+[109002][V][Parsing.cpp:260] _parseRequest(): Request: /
+[109003][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[109003][V][main.cpp:73] handle_root(): Handle root
+tation Disnnected: MAC: 90:e8:68:f0:92:57, AID: 1
+[109268][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 13 - AP_STADISCONNECTED
+[109710][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[109711][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[109712][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[109713][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[109714][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[109714][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[109716][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[109716][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[109717][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[109718][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[109718][V][Parsing.cpp:277] _parseArguments(): args: 
+[109719][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[109719][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[109720][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[109722][W][WebServer.cpp:425] send(): content length is zero
+[109726][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[109727][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate_204 search: 
+[109728][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[109729][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[109730][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[109731][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[109732][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[109733][V][Parsing.cpp:250] _parseRequest(): headerValue: www.google.in
+[109734][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[109734][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[109735][V][Parsing.cpp:277] _parseArguments(): args: 
+[109735][V][Parsing.cpp:260] _parseRequest(): Request: /generate_204
+[109736][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[109737][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for www.google.in redirected to 192.168.4.1:80
+[109738][W][WebServer.cpp:425] send(): content length is zero
+[109742][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[109743][V][Parsing.cpp:122] _parseRequest(): method: GET url: /favicon.ico search: 
+[109744][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[109745][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[109745][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[109746][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[109747][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[109748][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 13; CPH2219 Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.107 Mobile Safari/537.36
+[109750][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[109750][V][Parsing.cpp:250] _parseRequest(): headerValue: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+[109752][V][Parsing.cpp:249] _parseRequest(): headerName: X-Requested-With
+[109752][V][Parsing.cpp:250] _parseRequest(): headerValue: com.google.android.captiveportallogin
+[109753][V][Parsing.cpp:249] _parseRequest(): headerName: Referer
+[109754][V][Parsing.cpp:250] _parseRequest(): headerValue: http://192.168.4.1/
+[109755][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[109755][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[109756][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[109757][V][Parsing.cpp:250] _parseRequest(): headerValue: en-US,en;q=0.9
+[109757][V][Parsing.cpp:277] _parseArguments(): args: 
+[109758][V][Parsing.cpp:260] _parseRequest(): Request: /favicon.ico
+[109758][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[109759][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Requested a non-existing page '/favicon.ico'
+[109794][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[109796][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[109797][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[109798][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[109799][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[109800][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[109801][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[109802][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[109803][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[109803][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[109804][V][Parsing.cpp:277] _parseArguments(): args: 
+[109804][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[109805][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[109806][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[109807][W][WebServer.cpp:425] send(): content length is zero
+[109811][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[109812][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate_204 search: 
+[109813][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[109814][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[109815][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[109815][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[109817][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[109817][V][Parsing.cpp:250] _parseRequest(): headerValue: www.google.in
+[109818][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[109819][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[109820][V][Parsing.cpp:277] _parseArguments(): args: 
+[109820][V][Parsing.cpp:260] _parseRequest(): Request: /generate_204
+[109821][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[109821][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for www.google.in redirected to 192.168.4.1:80
+[109823][W][WebServer.cpp:425] send(): content length is zero
+[112190][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[112191][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[112192][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[112193][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[112194][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[112195][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[112196][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[112197][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[112198][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[112199][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[112200][V][Parsing.cpp:277] _parseArguments(): args: 
+[112200][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[112201][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[112201][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[112203][W][WebServer.cpp:425] send(): content length is zero
+[112207][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[112208][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate_204 search: 
+[112209][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[112209][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[112210][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[112211][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[112212][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[112213][V][Parsing.cpp:250] _parseRequest(): headerValue: www.google.in
+[112214][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[112215][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[112215][V][Parsing.cpp:277] _parseArguments(): args: 
+[112216][V][Parsing.cpp:260] _parseRequest(): Request: /generate_204
+[112216][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[112217][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for www.google.in redirected to 192.168.4.1:80
+[112219][W][WebServer.cpp:425] send(): content length is zero
+[112913][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[112915][V][Parsing.cpp:122] _parseRequest(): method: GET url: / search: 
+[112916][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[112917][V][Parsing.cpp:250] _parseRequest(): headerValue: Dalvik/2.1.0 (Linux; U; Android 13; CPH2219 Build/TP1A.220905.001)
+[112918][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[112918][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[112919][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[112919][V][Parsing.cpp:250] _parseRequest(): headerValue: Keep-Alive
+[112920][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[112921][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[112921][V][Parsing.cpp:277] _parseArguments(): args: 
+[112922][V][Parsing.cpp:260] _parseRequest(): Request: /
+[112922][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[112923][V][main.cpp:73] handle_root(): Handle root
+[118890][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[118892][V][Parsing.cpp:122] _parseRequest(): method: GET url: /config search: 
+[118893][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[118893][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[118894][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[118895][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[118895][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[118896][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[118897][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[118897][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 13; CPH2219 Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.107 Mobile Safari/537.36
+[118900][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[118900][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[118902][V][Parsing.cpp:249] _parseRequest(): headerName: X-Requested-With
+[118902][V][Parsing.cpp:250] _parseRequest(): headerValue: com.google.android.captiveportallogin
+[118903][V][Parsing.cpp:249] _parseRequest(): headerName: Referer
+[118904][V][Parsing.cpp:250] _parseRequest(): headerValue: http://192.168.4.1/
+[118905][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[118905][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[118906][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[118907][V][Parsing.cpp:250] _parseRequest(): headerValue: en-US,en;q=0.9
+[118907][V][Parsing.cpp:277] _parseArguments(): args: 
+[118908][V][Parsing.cpp:260] _parseRequest(): Request: /config
+[118908][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+Configuration page requested.
+[118909][W][WebServer.cpp:425] send(): content length is zero
+Rendering parameters:
+[iwcSys]
+|-- 'iwcThingName' with value: 'ESP32CAM-RTSP-7c3789da3bd8'
+|-- 'iwcApPassword' with value: <hidden>
+|-- [iwcWifi0]
+|   |-- 'iwcWifiSsid' with value: ''
+|   \-- 'iwcWifiPassword' with value: <hidden>
+\-- 'iwcApTimeout' with value: '30'
+[iwcCustom]
+\-- [camera]
+    |-- 'fd' with value: '200'
+    |-- 'fs' with value: 'VGA (640x480)'
+    |-- 'q' with value: '14'
+    |-- 'b' with value: '0'
+    |-- 'c' with value: '0'
+    |-- 's' with value: '0'
+    |-- 'e' with value: 'Normal'
+    |-- 'wb' with value: '1'
+    |-- 'awbg' with value: '1'
+    |-- 'wbm' with value: 'Auto'
+    |-- 'ec' with value: '1'
+    |-- 'aec2' with value: '1'
+    |-- 'ael' with value: '0'
+    |-- 'aecv' with value: '300'
+    |-- 'gc' with value: '1'
+    |-- 'agcg' with value: '0'
+    |-- 'gcl' with value: '2X'
+    |-- 'bpc' with value: '0'
+    |-- 'wpc' with value: '1'
+    |-- 'rg' with value: '1'
+    |-- 'lenc' with value: '1'
+    |-- 'hm' with value: '0'
+    |-- 'vm' with value: '0'
+    |-- 'dcw' with value: '1'
+    \-- 'cb' with value: '0'
+[119416][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[119417][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate_204 search: 
+[119418][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[119419][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[119420][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[119420][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[119422][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[119422][V][Parsing.cpp:250] _parseRequest(): headerValue: www.google.in
+[119423][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[119424][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[119425][V][Parsing.cpp:277] _parseArguments(): args: 
+[119425][V][Parsing.cpp:260] _parseRequest(): Request: /generate_204
+[119426][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[119426][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for www.google.in redirected to 192.168.4.1:80
+[119428][W][WebServer.cpp:425] send(): content length is zero
+[119432][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[119433][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[119434][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[119435][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[119436][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[119437][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[119438][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[119439][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[119440][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[119440][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[119441][V][Parsing.cpp:277] _parseArguments(): args: 
+[119441][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[119442][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[119443][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[119444][W][WebServer.cpp:425] send(): content length is zero
+[119536][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[119537][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[119538][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[119538][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[119540][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[119541][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[119542][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[119543][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[119543][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[119544][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[119545][V][Parsing.cpp:277] _parseArguments(): args: 
+[119545][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[119546][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[119547][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[119549][W][WebServer.cpp:425] send(): content length is zero
+[119553][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[119554][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate_204 search: 
+[119555][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[119556][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[119557][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[119558][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[119559][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[119560][V][Parsing.cpp:250] _parseRequest(): headerValue: www.google.in
+[119561][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[119561][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[119562][V][Parsing.cpp:277] _parseArguments(): args: 
+[119562][V][Parsing.cpp:260] _parseRequest(): Request: /generate_204
+[119563][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[119564][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for www.google.in redirected to 192.168.4.1:80
+[119565][W][WebServer.cpp:425] send(): content length is zero
+[121895][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[121916][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[121917][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[121918][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[121918][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[121919][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[121920][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[121921][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[121921][V][Parsing.cpp:277] _parseArguments(): args: 
+[121922][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[121922][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[121923][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[121924][W][WebServer.cpp:425] send(): content length is zero
+[121985][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[122124][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[122126][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[122126][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[122127][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[122127][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[122129][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[122129][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[122130][V][Parsing.cpp:277] _parseArguments(): args: 
+[122130][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[122131][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[122132][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[122133][W][WebServer.cpp:425] send(): content length is zero
+[122280][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[122307][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[122308][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[122309][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[122310][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[122310][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[122311][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[122312][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[122312][V][Parsing.cpp:277] _parseArguments(): args: 
+[122313][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[122313][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[122314][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[122315][W][WebServer.cpp:425] send(): content length is zero
+[123732][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[123735][V][Parsing.cpp:122] _parseRequest(): method: GET url: / search: 
+[123735][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[123736][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[123737][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[123737][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[123738][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[123738][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[123739][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[123740][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 13; CPH2219 Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.107 Mobile Safari/537.36
+[123742][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[123743][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[123744][V][Parsing.cpp:249] _parseRequest(): headerName: X-Requested-With
+[123745][V][Parsing.cpp:250] _parseRequest(): headerValue: com.google.android.captiveportallogin
+[123746][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[123746][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[123747][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[123748][V][Parsing.cpp:250] _parseRequest(): headerValue: en-US,en;q=0.9
+[123748][V][Parsing.cpp:277] _parseArguments(): args: 
+[123749][V][Parsing.cpp:260] _parseRequest(): Request: /
+[123749][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[123750][V][main.cpp:73] handle_root(): Handle root
+[124014][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[124016][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[124017][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[124017][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[124018][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[124019][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[124020][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[124020][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[124022][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[124022][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[124023][V][Parsing.cpp:277] _parseArguments(): args: 
+[124024][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[124025][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[124025][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[124027][W][WebServer.cpp:425] send(): content length is zero
+[124041][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[124042][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate_204 search: 
+[124043][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[124043][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[124044][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[124045][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[124046][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[124047][V][Parsing.cpp:250] _parseRequest(): headerValue: www.google.in
+[124048][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[124049][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[124049][V][Parsing.cpp:277] _parseArguments(): args: 
+[124050][V][Parsing.cpp:260] _parseRequest(): Request: /generate_204
+[124050][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[124051][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for www.google.in redirected to 192.168.4.1:80
+[124053][W][WebServer.cpp:425] send(): content length is zero
+[124086][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[124087][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate_204 search: 
+[124088][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[124089][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[124090][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[124091][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[124092][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[124092][V][Parsing.cpp:250] _parseRequest(): headerValue: www.google.in
+[124093][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[124094][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[124095][V][Parsing.cpp:277] _parseArguments(): args: 
+[124095][V][Parsing.cpp:260] _parseRequest(): Request: /generate_204
+[124096][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[124097][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for www.google.in redirected to 192.168.4.1:80
+[124098][W][WebServer.cpp:425] send(): content length is zero
+[124102][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[124103][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[124104][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[124105][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[124106][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[124106][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[124108][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[124108][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[124110][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[124110][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[124111][V][Parsing.cpp:277] _parseArguments(): args: 
+[124111][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[124112][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[124113][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[124114][W][WebServer.cpp:425] send(): content length is zero
+[125638][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[125639][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate_204 search: 
+[125640][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[125640][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[125641][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[125642][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[125643][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[125644][V][Parsing.cpp:250] _parseRequest(): headerValue: www.google.in
+[125645][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[125645][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[125646][V][Parsing.cpp:277] _parseArguments(): args: 
+[125647][V][Parsing.cpp:260] _parseRequest(): Request: /generate_204
+[125647][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[125648][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for www.google.in redirected to 192.168.4.1:80
+[125649][W][WebServer.cpp:425] send(): content length is zero
+[125653][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[125655][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[125655][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[125656][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[125657][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[125658][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[125659][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[125660][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[125661][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[125662][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[125662][V][Parsing.cpp:277] _parseArguments(): args: 
+[125663][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[125663][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[125664][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[125666][W][WebServer.cpp:425] send(): content length is zero
+[125748][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[125763][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate_204 search: 
+[125764][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[125764][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[125765][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[125766][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[125767][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[125767][V][Parsing.cpp:250] _parseRequest(): headerValue: www.google.in
+[125768][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[125769][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[125769][V][Parsing.cpp:277] _parseArguments(): args: 
+[125770][V][Parsing.cpp:260] _parseRequest(): Request: /generate_204
+[125771][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[125771][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for www.google.in redirected to 192.168.4.1:80
+[125774][W][WebServer.cpp:425] send(): content length is zero
+[125778][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[125779][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[125780][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[125781][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[125782][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[125782][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[125784][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[125784][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[125785][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[125786][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[125787][V][Parsing.cpp:277] _parseArguments(): args: 
+[125787][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[125788][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[125789][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[125790][W][WebServer.cpp:425] send(): content length is zero
+[125980][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[125981][V][Parsing.cpp:122] _parseRequest(): method: GET url: /stream search: 
+[125982][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[125983][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[125983][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[125984][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[125985][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[125986][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[125987][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[125987][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 13; CPH2219 Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.107 Mobile Safari/537.36
+[125989][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[125990][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[125992][V][Parsing.cpp:249] _parseRequest(): headerName: X-Requested-With
+[125992][V][Parsing.cpp:250] _parseRequest(): headerValue: com.google.android.captiveportallogin
+[125993][V][Parsing.cpp:249] _parseRequest(): headerName: Referer
+[125994][V][Parsing.cpp:250] _parseRequest(): headerValue: http://192.168.4.1/
+[125994][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[125995][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[125996][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[125996][V][Parsing.cpp:250] _parseRequest(): headerValue: en-US,en;q=0.9
+[125997][V][Parsing.cpp:277] _parseArguments(): args: 
+[125997][V][Parsing.cpp:260] _parseRequest(): Request: /stream
+[125998][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[125999][V][main.cpp:191] handle_stream(): handle_stream
+[126105][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[126106][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate_204 search: 
+[126107][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[126108][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[126109][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[126109][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[126111][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[126111][V][Parsing.cpp:250] _parseRequest(): headerValue: www.google.in
+[126112][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[126112][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[126113][V][Parsing.cpp:277] _parseArguments(): args: 
+[126113][V][Parsing.cpp:260] _parseRequest(): Request: /generate_204
+[126114][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[126115][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for www.google.in redirected to 192.168.4.1:80
+[126116][W][WebServer.cpp:425] send(): content length is zero
+[126120][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[126121][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[126122][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[126123][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[126124][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[126124][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[126126][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[126126][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[126127][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[126128][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[126128][V][Parsing.cpp:277] _parseArguments(): args: 
+[126129][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[126129][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[126130][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[126132][W][WebServer.cpp:425] send(): content length is zero
+[126176][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[126178][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate_204 search: 
+[126179][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[126179][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[126180][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[126181][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[126182][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[126183][V][Parsing.cpp:250] _parseRequest(): headerValue: www.google.in
+[126183][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[126184][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[126184][V][Parsing.cpp:277] _parseArguments(): args: 
+[126185][V][Parsing.cpp:260] _parseRequest(): Request: /generate_204
+[126186][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[126186][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for www.google.in redirected to 192.168.4.1:80
+[126188][W][WebServer.cpp:425] send(): content length is zero
+[126194][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[126196][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[126197][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[126197][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[126198][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[126199][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[126200][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[126201][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[126202][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[126202][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[126203][V][Parsing.cpp:277] _parseArguments(): args: 
+[126203][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[126204][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[126205][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[126206][W][WebServer.cpp:425] send(): content length is zero
+[126843][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[126853][V][Parsing.cpp:122] _parseRequest(): method: POST url: /y.gif search: encrypt=1
+[126854][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[126854][V][Parsing.cpp:155] _parseRequest(): headerValue: imo-android 8423032392778133746
+[126855][V][Parsing.cpp:154] _parseRequest(): headerName: Content-Encoding
+[126856][V][Parsing.cpp:155] _parseRequest(): headerValue: gzip
+[126856][V][Parsing.cpp:154] _parseRequest(): headerName: data-len
+[126857][V][Parsing.cpp:155] _parseRequest(): headerValue: 959
+[126858][V][Parsing.cpp:154] _parseRequest(): headerName: Content-Type
+[126858][V][Parsing.cpp:155] _parseRequest(): headerValue: text/plain
+[126859][V][Parsing.cpp:154] _parseRequest(): headerName: Content-Length
+[126859][V][Parsing.cpp:155] _parseRequest(): headerValue: 960
+[126860][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[126861][V][Parsing.cpp:155] _parseRequest(): headerValue: bstream.kzhi.tech
+[126861][V][Parsing.cpp:154] _parseRequest(): headerName: Connection
+[126862][V][Parsing.cpp:155] _parseRequest(): headerValue: Keep-Alive
+[126863][V][Parsing.cpp:154] _parseRequest(): headerName: Accept-Encoding
+[126863][V][Parsing.cpp:155] _parseRequest(): headerValue: gzip
+[126865][V][Parsing.cpp:277] _parseArguments(): args: encrypt=1
+[126866][V][Parsing.cpp:295] _parseArguments(): args count: 1
+[126866][V][Parsing.cpp:303] _parseArguments(): pos 0 =@7 &@-1
+[126867][V][Parsing.cpp:314] _parseArguments(): arg 0 key: encrypt value: 1
+[126868][V][Parsing.cpp:321] _parseArguments(): args count: 1
+[126868][V][Parsing.cpp:220] _parseRequest(): Plain: �1hY��}�.Pſ��!2zS�9,A���W~p���3�$�
+[126869][V][Parsing.cpp:260] _parseRequest(): Request: /y.gif
+[126869][V][Parsing.cpp:261] _parseRequest():  Arguments: encrypt=1
+[126870][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for bstream.kzhi.tech redirected to 192.168.4.1:80
+[126871][W][WebServer.cpp:425] send(): content length is zero
+[126918][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[126919][V][Parsing.cpp:122] _parseRequest(): method: GET url: / search: 
+[126920][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[126920][V][Parsing.cpp:250] _parseRequest(): headerValue: imo-android 8423032392778133746
+[126921][V][Parsing.cpp:249] _parseRequest(): headerName: Content-Encoding
+[126922][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[126922][V][Parsing.cpp:249] _parseRequest(): headerName: data-len
+[126923][V][Parsing.cpp:250] _parseRequest(): headerValue: 959
+[126924][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[126924][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[126925][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[126926][V][Parsing.cpp:250] _parseRequest(): headerValue: Keep-Alive
+[126926][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[126927][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[126928][V][Parsing.cpp:277] _parseArguments(): args: 
+[126928][V][Parsing.cpp:260] _parseRequest(): Request: /
+[126929][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[126929][V][main.cpp:73] handle_root(): Handle root
+[127029][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[127030][V][Parsing.cpp:122] _parseRequest(): method: GET url: / search: 
+[127031][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[127031][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[127032][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[127032][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[127033][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[127034][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[127035][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[127035][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 13; CPH2219 Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.107 Mobile Safari/537.36
+[127037][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[127038][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[127040][V][Parsing.cpp:249] _parseRequest(): headerName: X-Requested-With
+[127041][V][Parsing.cpp:250] _parseRequest(): headerValue: com.google.android.captiveportallogin
+[127042][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[127042][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[127043][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[127044][V][Parsing.cpp:250] _parseRequest(): headerValue: en-US,en;q=0.9
+[127045][V][Parsing.cpp:277] _parseArguments(): args: 
+[127045][V][Parsing.cpp:260] _parseRequest(): Request: /
+[127046][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[127047][V][main.cpp:73] handle_root(): Handle root
+[127148][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[127149][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate_204 search: 
+[127150][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[127150][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[127151][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[127152][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[127154][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[127154][V][Parsing.cpp:250] _parseRequest(): headerValue: www.google.in
+[127155][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[127156][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[127156][V][Parsing.cpp:277] _parseArguments(): args: 
+[127157][V][Parsing.cpp:260] _parseRequest(): Request: /generate_204
+[127157][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[127158][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for www.google.in redirected to 192.168.4.1:80
+[127159][W][WebServer.cpp:425] send(): content length is zero
+[127164][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[127165][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[127166][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[127167][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[127167][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[127168][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[127169][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[127170][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[127171][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[127171][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[127172][V][Parsing.cpp:277] _parseArguments(): args: 
+[127173][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[127173][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[127174][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[127176][W][WebServer.cpp:425] send(): content length is zero
+[127231][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[127233][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[127234][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[127235][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[127236][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[127237][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[127238][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[127239][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[127240][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[127240][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[127241][V][Parsing.cpp:277] _parseArguments(): args: 
+[127242][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[127242][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[127243][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[127244][W][WebServer.cpp:425] send(): content length is zero
+[127252][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[127254][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate_204 search: 
+[127255][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[127256][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[127257][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[127257][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[127258][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[127259][V][Parsing.cpp:250] _parseRequest(): headerValue: www.google.in
+[127260][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[127261][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[127262][V][Parsing.cpp:277] _parseArguments(): args: 
+[127262][V][Parsing.cpp:260] _parseRequest(): Request: /generate_204
+[127263][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[127264][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for www.google.in redirected to 192.168.4.1:80
+[127265][W][WebServer.cpp:425] send(): content length is zero
+[127296][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[127298][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[127299][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[127300][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[127301][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[127301][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[127303][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[127303][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-in-04.allawnos.com
+[127304][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[127305][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[127305][V][Parsing.cpp:277] _parseArguments(): args: 
+[127306][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[127307][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[127307][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-in-04.allawnos.com redirected to 192.168.4.1:80
+[127309][W][WebServer.cpp:425] send(): content length is zero
+[127312][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[127314][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate_204 search: 
+[127315][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[127315][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[127316][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[127317][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[127318][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[127319][V][Parsing.cpp:250] _parseRequest(): headerValue: www.google.in
+[127320][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[127321][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[127321][V][Parsing.cpp:277] _parseArguments(): args: 
+[127322][V][Parsing.cpp:260] _parseRequest(): Request: /generate_204
+[127322][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[127323][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for www.google.in redirected to 192.168.4.1:80
+[127325][W][WebServer.cpp:425] send(): content length is zero
+[129248][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[129261][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[129262][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[129263][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[129264][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[129264][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[129265][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[129266][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[129266][V][Parsing.cpp:277] _parseArguments(): args: 
+[129267][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[129267][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[129268][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[129269][W][WebServer.cpp:425] send(): content length is zero
+[129313][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[129322][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[129323][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[129324][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[129325][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[129325][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[129326][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[129327][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[129327][V][Parsing.cpp:277] _parseArguments(): args: 
+[129328][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[129328][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[129329][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[129330][W][WebServer.cpp:425] send(): content length is zero
+[129398][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[129410][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[129411][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[129411][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[129412][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[129413][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[129414][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[129414][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[129415][V][Parsing.cpp:277] _parseArguments(): args: 
+[129416][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[129416][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[129417][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[129418][W][WebServer.cpp:425] send(): content length is zero
+[142992][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[143004][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[143005][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[143006][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[143007][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[143007][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[143009][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[143009][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[143010][V][Parsing.cpp:277] _parseArguments(): args: 
+[143010][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[143011][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[143011][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[143013][W][WebServer.cpp:425] send(): content length is zero
+[144070][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[144101][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[144102][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[144102][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[144103][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[144104][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[144105][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[144105][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[144106][V][Parsing.cpp:277] _parseArguments(): args: 
+[144106][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[144107][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[144108][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[144109][W][WebServer.cpp:425] send(): content length is zero
+[144227][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[144239][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[144240][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[144240][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[144241][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[144242][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[144243][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[144243][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[144244][V][Parsing.cpp:277] _parseArguments(): args: 
+[144244][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[144245][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[144246][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[144247][W][WebServer.cpp:425] send(): content length is zero
+[180069][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[180086][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[180087][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[180087][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[180088][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[180089][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[180090][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[180091][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[180092][V][Parsing.cpp:277] _parseArguments(): args: 
+[180092][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[180093][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[180093][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[180095][W][WebServer.cpp:425] send(): content length is zero
+[180151][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[180168][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[180169][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[180169][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[180170][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[180171][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[180172][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[180172][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[180173][V][Parsing.cpp:277] _parseArguments(): args: 
+[180174][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[180174][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[180175][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[180176][W][WebServer.cpp:425] send(): content length is zero
+[180354][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[180369][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[180370][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[180371][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[180371][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[180372][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[180373][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[180374][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[180374][V][Parsing.cpp:277] _parseArguments(): args: 
+[180375][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[180375][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[180376][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[180377][W][WebServer.cpp:425] send(): content length is zero
+[182129][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[182132][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[182133][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[182133][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[182134][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[182135][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[182136][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[182137][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-us-04.allawnos.com
+[182138][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[182138][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[182139][V][Parsing.cpp:277] _parseArguments(): args: 
+[182140][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[182140][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[182141][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-us-04.allawnos.com redirected to 192.168.4.1:80
+[182142][W][WebServer.cpp:425] send(): content length is zero
+[182146][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[182147][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[182148][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[182149][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[182150][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[182150][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[182152][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[182152][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-us-05.allawnos.com
+[182153][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[182154][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[182155][V][Parsing.cpp:277] _parseArguments(): args: 
+[182156][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[182156][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[182157][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-us-05.allawnos.com redirected to 192.168.4.1:80
+[182158][W][WebServer.cpp:425] send(): content length is zero
+[201474][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[201484][V][Parsing.cpp:122] _parseRequest(): method: GET url: / search: 
+[201485][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[201485][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[201486][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[201486][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[201487][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[201487][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[201488][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[201489][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[201490][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[201490][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[201492][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[201492][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[201494][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[201495][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[201495][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[201496][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[201497][V][Parsing.cpp:277] _parseArguments(): args: 
+[201497][V][Parsing.cpp:260] _parseRequest(): Request: /
+[201498][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[201499][V][main.cpp:73] handle_root(): Handle root
+[201790][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[201793][V][Parsing.cpp:122] _parseRequest(): method: GET url: /favicon.ico search: 
+[201794][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[201794][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[201795][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[201795][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[201796][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[201797][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[201798][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[201799][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[201799][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[201800][V][Parsing.cpp:250] _parseRequest(): headerValue: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+[201801][V][Parsing.cpp:249] _parseRequest(): headerName: Referer
+[201801][V][Parsing.cpp:250] _parseRequest(): headerValue: http://192.168.4.1/
+[201802][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[201803][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[201804][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[201804][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[201805][V][Parsing.cpp:277] _parseArguments(): args: 
+[201806][V][Parsing.cpp:260] _parseRequest(): Request: /favicon.ico
+[201806][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[201807][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Requested a non-existing page '/favicon.ico'
+[206132][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[206133][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[206134][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[206135][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[206136][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[206136][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[206138][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[206138][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-us-04.allawnos.com
+[206139][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[206140][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[206140][V][Parsing.cpp:277] _parseArguments(): args: 
+[206141][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[206141][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[206142][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-us-04.allawnos.com redirected to 192.168.4.1:80
+[206144][W][WebServer.cpp:425] send(): content length is zero
+[206148][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[206149][V][Parsing.cpp:122] _parseRequest(): method: GET url: /generate204 search: 
+[206150][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[206151][V][Parsing.cpp:250] _parseRequest(): headerValue: close
+[206152][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[206152][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+[206154][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[206155][V][Parsing.cpp:250] _parseRequest(): headerValue: conn-service-us-05.allawnos.com
+[206156][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[206156][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip
+[206157][V][Parsing.cpp:277] _parseArguments(): args: 
+[206157][V][Parsing.cpp:260] _parseRequest(): Request: /generate204
+[206158][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[206159][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for conn-service-us-05.allawnos.com redirected to 192.168.4.1:80
+[206160][W][WebServer.cpp:425] send(): content length is zero
+[212804][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[212809][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[212810][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[212810][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[212811][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[212811][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[212812][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[212812][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[212813][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[212814][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[212815][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[212815][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[212817][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[212817][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[212819][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[212820][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[212820][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[212821][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[212822][V][Parsing.cpp:277] _parseArguments(): args: 
+[212822][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[212823][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[221907][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[221912][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[221913][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[221913][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[221914][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[221914][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[221915][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[221916][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[221916][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[221917][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[221917][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[221918][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[221919][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[221919][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[221921][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[221922][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[221923][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[221924][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[221925][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[221925][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[221926][V][Parsing.cpp:277] _parseArguments(): args: 
+[221927][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[221927][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[227990][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[227992][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[227993][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[227994][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[227994][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[227995][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[227995][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[227996][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[227997][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[227997][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[227998][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[227998][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[227999][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[228000][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[228002][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[228002][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[228004][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[228004][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[228005][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[228006][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[228007][V][Parsing.cpp:277] _parseArguments(): args: 
+[228007][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[228008][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[232057][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[232058][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[232059][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[232060][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[232060][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[232061][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[232061][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[232062][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[232063][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[232063][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[232064][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[232064][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[232065][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[232066][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[232068][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[232068][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[232070][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[232070][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[232071][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[232072][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[232073][V][Parsing.cpp:277] _parseArguments(): args: 
+[232073][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[232074][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[234507][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[234511][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[234512][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[234512][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[234513][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[234513][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[234514][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[234515][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[234515][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[234516][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[234516][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[234517][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[234518][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[234519][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[234520][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[234521][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[234522][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[234523][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[234524][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[234524][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[234525][V][Parsing.cpp:277] _parseArguments(): args: 
+[234526][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[234526][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[235669][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[235675][V][Parsing.cpp:122] _parseRequest(): method: POST url: /service/update2/json search: cup2key=13:0I1JYk7tMaSa8qQziAP0EggyJ1Zp9PVBK4WHabc5syU&cup2hreq=9e69af0523232bc708f96bb255e651a437390a496b3d01243a3118d92930b89a
+[235677][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[235677][V][Parsing.cpp:155] _parseRequest(): headerValue: update.googleapis.com
+[235678][V][Parsing.cpp:154] _parseRequest(): headerName: Connection
+[235679][V][Parsing.cpp:155] _parseRequest(): headerValue: keep-alive
+[235679][V][Parsing.cpp:154] _parseRequest(): headerName: Content-Length
+[235680][V][Parsing.cpp:155] _parseRequest(): headerValue: 5535
+[235682][V][Parsing.cpp:154] _parseRequest(): headerName: X-Goog-Update-AppId
+[235683][V][Parsing.cpp:155] _parseRequest(): headerValue: gonpemdgkjcecdgbnaabipppbmgfggbe,gcmjkmgdlgnkkcocmoeiminaijmmjnii,lmelglejhemejginpboagddgdfbepgmp,kiabhabjdbkjdpjbpigfodbdjmbglcoo,obedbbhbpmojnkanicioggnmelmoomoc,giekcmmlnklenlaomppkphknjmnnpneh,hfnkpimlhhgieaddgfemjhofmfblmnib,khaoiebndkojlmppeemjhbpbandiljpe,efniojlnjndmcbiieegkicadnoecjjef,llkgjffcdpffmhiakmfcdcblohccpfmo,jflookgnkcckhobaglndicnbbgbonegd,aagaghndoahmfdbmfnajfklaomcanlnh,ggkkehgbnfjpeggfpleeakpidbkibbmn,eeigpngbgcognadeebkilcpcaedhellh
+[235687][V][Parsing.cpp:154] _parseRequest(): headerName: X-Goog-Update-Interactivity
+[235687][V][Parsing.cpp:155] _parseRequest(): headerValue: bg
+[235688][V][Parsing.cpp:154] _parseRequest(): headerName: X-Goog-Update-Updater
+[235689][V][Parsing.cpp:155] _parseRequest(): headerValue: chrome-117.0.5938.60
+[235690][V][Parsing.cpp:154] _parseRequest(): headerName: Content-Type
+[235690][V][Parsing.cpp:155] _parseRequest(): headerValue: application/json
+[235691][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[235692][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[235694][V][Parsing.cpp:154] _parseRequest(): headerName: Accept-Encoding
+[235694][V][Parsing.cpp:155] _parseRequest(): headerValue: gzip, deflate
+[235717][V][Parsing.cpp:277] _parseArguments(): args: cup2key=13:0I1JYk7tMaSa8qQziAP0EggyJ1Zp9PVBK4WHabc5syU&cup2hreq=9e69af0523232bc708f96bb255e651a437390a496b3d01243a3118d92930b89a
+[235718][V][Parsing.cpp:295] _parseArguments(): args count: 2
+[235719][V][Parsing.cpp:303] _parseArguments(): pos 0 =@7 &@54
+[235719][V][Parsing.cpp:314] _parseArguments(): arg 0 key: cup2key value: 13:0I1JYk7tMaSa8qQziAP0EggyJ1Zp9PVBK4WHabc5syU
+[235720][V][Parsing.cpp:303] _parseArguments(): pos 55 =@63 &@-1
+[235721][V][Parsing.cpp:314] _parseArguments(): arg 1 key: cup2hreq value: 9e69af0523232bc708f96bb255e651a437390a496b3d01243a3118d92930b89a
+[235722][V][Parsing.cpp:321] _parseArguments(): args count: 2
+[235723][V][Parsing.cpp:220] _parseRequest(): Plain: {"request":{"@os":"android","@updater":"chrome","acceptformat":"crx3,puff","app":[{"_internal_experimental_sets":"false","appid":"gonpemdgkjcecdgbnaabipppbmgfggbe","cohort":"1:z1x:","cohorthint":"General release","cohortname":"Auto","enabled":true,"lang":"en-US","packages":{"package":[{"fp":"1.03cccbb22b17080279ea1707c9ab093c59f4f4dd09580c841cfa794cb372228d"}]},"ping":{"ping_freshness":"{15d5db98-b857-41a0-af6d-e2112218e4e9}","rd":6532},"updatecheck":{},"version":"2024.11.8.0"},{"appid":"gcmjkmgdlgnkkcocmoeiminaijmmjnii","cohort":"1:bm1:2puf@0.2","cohorthint":"M54AndUp","cohortname":"Stable","enabled":true,"lang":"en-US","packages":{"package":[{"fp":"1.b48b30af5ce18c96128bfff9d2755c7932a1f32adc66f68322f7dd505db9626f"}]},"ping":{"ping_freshness":"{051450c8-48c9-49d2-8b12-c6b8575aad94}","rd":6532},"updatecheck":{},"version":"9.52.0"},{"appid":"lmelglejhemejginpboagddgdfbepgmp","cohort":"1:lwl:","cohorthint":"Auto","cohortname":"Auto","enabled":true,"lang":"en-US","packages":{"package":[{"fp":"1.b17482c18814a2faff9ab6765b437f06d036f883ad4ea2fd1134d74a9723b8ce"}]},"ping":{"ping_freshness":"{155ab251-f247-4b72-bc16-726a143d46d1}","rd":6532},"updatecheck":{},"version":"476"},{"appid":"kiabhabjdbkjdpjbpigfodbdjmbglcoo","cohort":"1:v3l:","cohorthint":"Auto","cohortname":"Auto","enabled":true,"lang":"en-US","packages":{"package":[{"fp":"1.fbd0d7206f8650d442eb772a03839aabc778b0225aee04589ca8cdad2aa99cca"}]},"ping":{"ping_freshness":"{e6c1308a-e663-4f71-9916-3f3bb1ac0237}","rd":6532},"updatecheck":{},"version":"2024.10.11.1"},{"accept_locale":"ENUS500000","appid":"obedbbhbpmojnkanicioggnmelmoomoc","cohort":"1:s6f/2q7f:2q7l@0.5","cohorthint":"Auto","cohortname":"Rollout","enabled":true,"lang":"en-US","packages":{"package":[{"fp":"1.53359965bbc783f1a6334b22876d97e66ae83ba71a337b6b590685863f5992a2"}]},"ping":{"ping_freshness":"{855a2984-6d40-474e-bfb5-f1496362f734}","rd":6532},"updatecheck":{},"version":"20241031.690810062.14"},{"appid":"giekcmmlnklenlaomppkphknjmnnpneh","cohort":"1:j5l:","cohorthint":"Auto","cohortname":"Auto","enabled":true,"lang":"en-US","packages":{"package":[{"fp":"1.fd515ec0dc30d25a09641b8b83729234bc50f4511e35ce17d24fd996252eaace"}]},"ping":{"ping_freshness":"{6ff46a5b-f53f-4495-8eb9-364da7149dcb}","rd":6532},"updatecheck":{},"version":"7"},{"appid":"hfnkpimlhhgieaddgfemjhofmfblmnib","cohort":"1:2879:","cohorthint":"Auto","cohortname":"Auto androidlowmem","enabled":true,"lang":"en-US","packages":{"package":[{"fp":"1.0d5dc68516b7dda9cfa55f1833c394cb5534213e97a047270727dad68df2cb4e"}]},"ping":{"ping_freshness":"{3555cf41-6102-436f-abbf-30055a7abf38}","rd":6532},"updatecheck":{},"version":"9317"},{"appid":"khaoiebndkojlmppeemjhbpbandiljpe","cohort":"1:cux:","cohorthint":"Auto","cohortname":"Auto","enabled":true,"lang":"en-US","packages":{"package":[{"fp":"1.c9ebd3b31f8c0753391309b41eda55dacae55a8363ea78b9cb53b6a2389dfa99"}]},"ping":{"ping_freshness":"{df90e95c-5e27-465d-869a-6bef136ce893}","rd":6532},"tag":"default","updatecheck":{},"version":"67"},{"appid":"efniojlnjndmcbiieegkicadnoecjjef","cohort":"1:18ql:","cohorthint":"Auto Stage3","cohortname":"Auto Stage3","enabled":true,"lang":"en-US","packages":{"package":[{"fp":"1.125cd9b2e114daf787612b37c3ef1b6c7f31c317242011c455695f255c253229"}]},"ping":{"ping_freshness":"{b1b625a0-a258-4fb2-9028-62119b9b16c0}","rd":6532},"updatecheck":{},"version":"1133"},{"appid":"llkgjffcdpffmhiakmfcdcblohccpfmo","cohort":"1::","enabled":true,"lang":"en-US","packages":{"package":[{"fp":"1.2638e3c2d1fa1d417bfdc31dd21bc938f106d3b436a6488b41b014ca9e2b7541"}]},"ping":{"ping_freshness":"{af7925ba-fd76-4354-9e01-b345cb6d4ea2}","rd":6532},"updatecheck":{},"version":"1.0.0.17"},{"appid":"jflookgnkcckhobaglndicnbbgbonegd","cohort":"1:s7x:","cohorthint":"Auto","cohortname":"Auto","enabled":true,"lang":"en-US","packages":{"package":[{"fp":"1.8373e1ca5f29e5a21b85269b50f71b9c927e639e58fdaf29fd1d6911f5843e3e"}]},"ping":{"ping_freshness":"{1bbef1ae-1e48-4381-be80-65bf37036710}","rd":6532},"updatecheck":{},"version":"3051"},{"appid":"aagaghndoahmfdbmfnajfklaomcanlnh","cohort":"1:1gal:","cohortname":"Auto","enabled":true,"installdate":5966,"lang":"en-US","packages":{"package":[{"fp":"1.258e0de570f4253bf3f2fc13e66bad74528d255d8e466f130cce6c9a948493c6"}]},"ping":{"ping_freshness":"{7fe21c25-c04e-4a61-bf29-313653ebf970}","rd":6532},"updatecheck":{},"version":"9"},{"appid":"ggkkehgbnfjpeggfpleeakpidbkibbmn","cohort":"1:ut9/1a0f/2c99/2c9f:","cohorthint":"108-and-above-all-users","cohortname":"Control","enabled":true,"lang":"en-US","packages":{"package":[{"fp":"1.5b4eab6c429ece540d60b7ff8ca2d09b215bf790886c69468f43ac0f4052bcb4"}]},"ping":{"ping_freshness":"{3c914fb4-26d2-410b-be0f-5d545c2f408a}","rd":6532},"updatecheck":{},"version":"2023.11.29.1201"},{"appid":"eeigpngbgcognadeebkilcpcaedhellh","cohort":"1:w59:","cohorthint":"Auto","cohortname":"Auto","enabled":true,"lang":"en-US","packages":{"package":[{"fp":"1.8814cb6cab024b119ab991ad7acd74f4df7bc68bbf86c0903c8be9852a5baa55"}]},"ping":{"ping_freshness":"{5632691b-e87b-48bc-98f4-001cbb38ecd5}","rd":6532},"updatecheck":{},"version":"2024.7.12.235938"}],"arch":"arm","dedup":"cr","hw":{"avx":false,"physmemory":6,"sse":false,"sse2":false,"sse3":false,"sse41":false,"sse42":false,"ssse3":false},"ismachine":false,"nacl_arch":"arm","os":{"arch":"armv8l","platform":"Android","version":"13"},"prodversion":"117.0.5938.60","protocol":"3.1","requestid":"{dc156208-bfad-4e57-8762-069514748d73}","sessionid":"{1d2fd279-b404-4433-9f6b-7079ded7f04f}","updaterversion":"117.0.5938.60"}}
+[235762][V][Parsing.cpp:260] _parseRequest(): Request: /service/update2/json
+[235762][V][Parsing.cpp:261] _parseRequest():  Arguments: cup2key=13:0I1JYk7tMaSa8qQziAP0EggyJ1Zp9PVBK4WHabc5syU&cup2hreq=9e69af0523232bc708f96bb255e651a437390a496b3d01243a3118d92930b89a
+[235764][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for update.googleapis.com redirected to 192.168.4.1:80
+[235765][W][WebServer.cpp:425] send(): content length is zero
+[235797][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[235801][V][Parsing.cpp:122] _parseRequest(): method: GET url: / search: 
+[235802][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[235802][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[235803][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[235804][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[235806][V][Parsing.cpp:249] _parseRequest(): headerName: X-Goog-Update-AppId
+[235806][V][Parsing.cpp:250] _parseRequest(): headerValue: gonpemdgkjcecdgbnaabipppbmgfggbe,gcmjkmgdlgnkkcocmoeiminaijmmjnii,lmelglejhemejginpboagddgdfbepgmp,kiabhabjdbkjdpjbpigfodbdjmbglcoo,obedbbhbpmojnkanicioggnmelmoomoc,giekcmmlnklenlaomppkphknjmnnpneh,hfnkpimlhhgieaddgfemjhofmfblmnib,khaoiebndkojlmppeemjhbpbandiljpe,efniojlnjndmcbiieegkicadnoecjjef,llkgjffcdpffmhiakmfcdcblohccpfmo,jflookgnkcckhobaglndicnbbgbonegd,aagaghndoahmfdbmfnajfklaomcanlnh,ggkkehgbnfjpeggfpleeakpidbkibbmn,eeigpngbgcognadeebkilcpcaedhellh
+[235810][V][Parsing.cpp:249] _parseRequest(): headerName: X-Goog-Update-Interactivity
+[235811][V][Parsing.cpp:250] _parseRequest(): headerValue: bg
+[235812][V][Parsing.cpp:249] _parseRequest(): headerName: X-Goog-Update-Updater
+[235812][V][Parsing.cpp:250] _parseRequest(): headerValue: chrome-117.0.5938.60
+[235813][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[235814][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[235815][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[235816][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[235817][V][Parsing.cpp:277] _parseArguments(): args: 
+[235817][V][Parsing.cpp:260] _parseRequest(): Request: /
+[235818][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[235818][V][main.cpp:73] handle_root(): Handle root
+[237862][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[237865][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[237866][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[237866][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[237867][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[237867][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[237868][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[237869][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[237869][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[237870][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[237870][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[237871][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[237872][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[237872][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[237874][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[237875][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[237876][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[237877][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[237878][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[237878][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[237879][V][Parsing.cpp:277] _parseArguments(): args: 
+[237880][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[237880][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[240323][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[240326][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[240327][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[240327][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[240328][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[240329][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[240329][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[240330][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[240330][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[240331][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[240332][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[240332][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[240333][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[240334][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[240335][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[240336][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[240337][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[240338][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[240339][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[240340][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[240341][V][Parsing.cpp:277] _parseArguments(): args: 
+[240341][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[240342][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[242520][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[242521][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[242522][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[242522][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[242523][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[242524][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[242524][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[242525][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[242525][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[242526][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[242527][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[242527][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[242528][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[242529][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[242530][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[242531][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[242532][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[242533][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[242534][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[242535][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[242535][V][Parsing.cpp:277] _parseArguments(): args: 
+[242536][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[242536][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[252779][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[252782][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[252783][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[252783][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[252784][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[252785][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[252785][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[252786][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[252787][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[252787][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[252788][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[252788][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[252789][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[252790][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[252791][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[252792][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[252794][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[252794][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[252795][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[252796][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[252796][V][Parsing.cpp:277] _parseArguments(): args: 
+[252797][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[252798][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[258393][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[258397][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[258398][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[258399][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[258399][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[258400][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[258401][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[258401][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[258402][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[258402][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[258403][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[258403][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[258404][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[258405][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[258407][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[258407][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[258409][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[258409][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[258410][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[258411][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[258412][V][Parsing.cpp:277] _parseArguments(): args: 
+[258412][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[258413][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[262645][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[262646][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[262647][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[262648][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[262648][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[262649][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[262649][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[262650][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[262651][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[262651][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[262652][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[262652][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[262653][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[262654][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[262656][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[262656][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[262658][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[262658][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[262659][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[262660][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[262661][V][Parsing.cpp:277] _parseArguments(): args: 
+[262661][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[262662][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[264728][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[264730][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[264731][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[264732][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[264733][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[264733][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[264734][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[264734][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[264735][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[264735][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[264736][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[264737][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[264738][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[264738][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[264740][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[264740][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[264742][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[264742][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[264743][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[264744][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[264745][V][Parsing.cpp:277] _parseArguments(): args: 
+[264745][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[264746][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[266760][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[266762][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[266763][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[266763][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[266764][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[266765][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[266765][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[266766][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[266767][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[266767][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[266768][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[266768][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[266769][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[266770][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[266771][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[266772][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[266774][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[266774][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[266775][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[266776][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[266777][V][Parsing.cpp:277] _parseArguments(): args: 
+[266777][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[266778][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[269504][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[269506][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[269507][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[269507][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[269508][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[269509][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[269509][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[269510][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[269511][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[269511][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[269512][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[269512][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[269513][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[269514][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[269515][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[269516][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[269518][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[269518][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[269519][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[269520][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[269521][V][Parsing.cpp:277] _parseArguments(): args: 
+[269521][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[269522][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[271845][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[271850][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[271851][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[271851][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[271852][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[271852][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[271853][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[271853][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[271854][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[271855][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[271855][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[271856][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[271857][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[271857][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[271859][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[271860][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[271861][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[271862][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[271863][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[271863][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[271864][V][Parsing.cpp:277] _parseArguments(): args: 
+[271865][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[271865][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[273661][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[273664][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[273664][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[273665][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[273666][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[273666][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[273667][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[273667][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[273668][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[273668][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[273669][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[273670][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[273671][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[273671][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[273673][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[273673][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[273675][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[273676][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[273676][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[273677][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[273678][V][Parsing.cpp:277] _parseArguments(): args: 
+[273678][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[273679][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[276174][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[276177][V][Parsing.cpp:122] _parseRequest(): method: GET url: /switch search: 
+[276178][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[276179][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[276180][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[276180][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[276181][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[276181][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[276182][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[276183][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[276183][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[276184][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[276185][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[276186][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[276187][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[276188][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[276189][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[276190][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[276191][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[276191][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[276192][V][Parsing.cpp:277] _parseArguments(): args: 
+[276193][V][Parsing.cpp:260] _parseRequest(): Request: /switch
+[276193][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[276198][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[279830][V][Parsing.cpp:122] _parseRequest(): method: GET url: / search: 
+[279831][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[279831][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[279832][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[279832][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[279833][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[279833][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[279834][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[279835][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[279836][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[279836][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[279838][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[279839][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[279840][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[279841][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[279842][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[279842][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[279843][V][Parsing.cpp:277] _parseArguments(): args: 
+[279844][V][Parsing.cpp:260] _parseRequest(): Request: /
+[279844][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[279845][V][main.cpp:73] handle_root(): Handle root
+[281032][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[281035][V][Parsing.cpp:122] _parseRequest(): method: GET url: /config search: 
+[281036][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[281036][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.4.1
+[281037][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[281037][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[281038][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[281039][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[281039][V][Parsing.cpp:249] _parseRequest(): headerName: DNT
+[281040][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[281040][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[281041][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[281043][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[281043][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[281045][V][Parsing.cpp:249] _parseRequest(): headerName: Referer
+[281045][V][Parsing.cpp:250] _parseRequest(): headerValue: http://192.168.4.1/
+[281046][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[281047][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[281048][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[281048][V][Parsing.cpp:250] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[281049][V][Parsing.cpp:277] _parseArguments(): args: 
+[281050][V][Parsing.cpp:260] _parseRequest(): Request: /config
+[281050][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+Configuration page requested.
+[281051][W][WebServer.cpp:425] send(): content length is zero
+Rendering parameters:
+[iwcSys]
+|-- 'iwcThingName' with value: 'ESP32CAM-RTSP-7c3789da3bd8'
+|-- 'iwcApPassword' with value: <hidden>
+|-- [iwcWifi0]
+|   |-- 'iwcWifiSsid' with value: ''
+|   \-- 'iwcWifiPassword' with value: <hidden>
+\-- 'iwcApTimeout' with value: '30'
+[iwcCustom]
+\-- [camera]
+    |-- 'fd' with value: '200'
+    |-- 'fs' with value: 'VGA (640x480)'
+    |-- 'q' with value: '14'
+    |-- 'b' with value: '0'
+    |-- 'c' with value: '0'
+    |-- 's' with value: '0'
+    |-- 'e' with value: 'Normal'
+    |-- 'wb' with value: '1'
+    |-- 'awbg' with value: '1'
+    |-- 'wbm' with value: 'Auto'
+    |-- 'ec' with value: '1'
+    |-- 'aec2' with value: '1'
+    |-- 'ael' with value: '0'
+    |-- 'aecv' with value: '300'
+    |-- 'gc' with value: '1'
+    |-- 'agcg' with value: '0'
+    |-- 'gcl' with value: '2X'
+    |-- 'bpc' with value: '0'
+    |-- 'wpc' with value: '1'
+    |-- 'rg' with value: '1'
+    |-- 'lenc' with value: '1'
+    |-- 'hm' with value: '0'
+    |-- 'vm' with value: '0'
+    |-- 'dcw' with value: '1'
+    \-- 'cb' with value: '0'
+[282304][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[282327][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[282328][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[282329][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[282330][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[282330][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[282331][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[282332][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[282333][V][Parsing.cpp:277] _parseArguments(): args: 
+[282333][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[282334][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[282334][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[282336][W][WebServer.cpp:425] send(): content length is zero
+[282444][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[282463][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[282464][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[282465][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[282466][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[282466][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[282467][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[282468][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[282469][V][Parsing.cpp:277] _parseArguments(): args: 
+[282469][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[282470][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[282470][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[282472][W][WebServer.cpp:425] send(): content length is zero
+[282593][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[282607][V][Parsing.cpp:122] _parseRequest(): method: POST url: /chat search: 
+[282608][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[282609][V][Parsing.cpp:155] _parseRequest(): headerValue: c.whatsapp.net
+[282610][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[282610][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (compatible; WAChat/1.2; +http://www.whatsapp.com/contact)
+[282611][V][Parsing.cpp:154] _parseRequest(): headerName: Transfer-Encoding
+[282612][V][Parsing.cpp:155] _parseRequest(): headerValue: chunked
+[282613][V][Parsing.cpp:277] _parseArguments(): args: 
+[282613][V][Parsing.cpp:260] _parseRequest(): Request: /chat
+[282614][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[282614][E][WebServer.cpp:638] _handleRequest(): request handler not found
+Request for c.whatsapp.net redirected to 192.168.4.1:80
+[282616][W][WebServer.cpp:425] send(): content length is zero
+[365501][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.4.1
+[365504][V][Parsing.cpp:122] _parseRequest(): method: POST url: /config search: 
+[365505][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[365506][V][Parsing.cpp:155] _parseRequest(): headerValue: 192.168.4.1
+[365506][V][Parsing.cpp:154] _parseRequest(): headerName: Connection
+[365507][V][Parsing.cpp:155] _parseRequest(): headerValue: keep-alive
+[365508][V][Parsing.cpp:154] _parseRequest(): headerName: Content-Length
+[365508][V][Parsing.cpp:155] _parseRequest(): headerValue: 364
+[365509][V][Parsing.cpp:154] _parseRequest(): headerName: Cache-Control
+[365509][V][Parsing.cpp:155] _parseRequest(): headerValue: max-age=0
+[365510][V][Parsing.cpp:154] _parseRequest(): headerName: Origin
+[365511][V][Parsing.cpp:155] _parseRequest(): headerValue: http://192.168.4.1
+[365511][V][Parsing.cpp:154] _parseRequest(): headerName: DNT
+[365512][V][Parsing.cpp:155] _parseRequest(): headerValue: 1
+[365512][V][Parsing.cpp:154] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[365513][V][Parsing.cpp:155] _parseRequest(): headerValue: 1
+[365514][V][Parsing.cpp:154] _parseRequest(): headerName: Content-Type
+[365514][V][Parsing.cpp:155] _parseRequest(): headerValue: application/x-www-form-urlencoded
+[365515][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[365516][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36
+[365518][V][Parsing.cpp:154] _parseRequest(): headerName: Accept
+[365518][V][Parsing.cpp:155] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[365520][V][Parsing.cpp:154] _parseRequest(): headerName: Referer
+[365520][V][Parsing.cpp:155] _parseRequest(): headerValue: http://192.168.4.1/config
+[365521][V][Parsing.cpp:154] _parseRequest(): headerName: Accept-Encoding
+[365522][V][Parsing.cpp:155] _parseRequest(): headerValue: gzip, deflate
+[365523][V][Parsing.cpp:154] _parseRequest(): headerName: Accept-Language
+[365523][V][Parsing.cpp:155] _parseRequest(): headerValue: en-GB,en-US;q=0.9,en;q=0.8,ml;q=0.7,zh-CN;q=0.6,zh;q=0.5
+[365525][V][Parsing.cpp:277] _parseArguments(): args: iotSave=true&iwcThingName=ESP32CAM-RTSP-7c3789da3bd8&iwcApPassword=autobonics%4027&iwcWifiSsid=Autobonics_4G&iwcWifiPassword=autobonics%4027&iwcApTimeout=10&fd=200&fs=VGA+%28640x480%29&q=14&b=0&c=0&s=0&e=Normal&wb=selected&awbg=selected&wbm=Auto&ec=selected&aec2=selected&ael=0&aecv=300&gc=selected&agcg=0&gcl=2X&wpc=selected&rg=selected&lenc=selected&dcw=selected
+[365528][V][Parsing.cpp:295] _parseArguments(): args count: 27
+[365529][V][Parsing.cpp:303] _parseArguments(): pos 0 =@7 &@12
+[365529][V][Parsing.cpp:314] _parseArguments(): arg 0 key: iotSave value: true
+[365530][V][Parsing.cpp:303] _parseArguments(): pos 13 =@25 &@52
+[365530][V][Parsing.cpp:314] _parseArguments(): arg 1 key: iwcThingName value: ESP32CAM-RTSP-7c3789da3bd8
+[365531][V][Parsing.cpp:303] _parseArguments(): pos 53 =@66 &@82
+[365532][V][Parsing.cpp:314] _parseArguments(): arg 2 key: iwcApPassword value: autobonics@27
+[365533][V][Parsing.cpp:303] _parseArguments(): pos 83 =@94 &@108
+[365533][V][Parsing.cpp:314] _parseArguments(): arg 3 key: iwcWifiSsid value: Autobonics_4G
+[365534][V][Parsing.cpp:303] _parseArguments(): pos 109 =@124 &@140
+[365535][V][Parsing.cpp:314] _parseArguments(): arg 4 key: iwcWifiPassword value: autobonics@27
+[365535][V][Parsing.cpp:303] _parseArguments(): pos 141 =@153 &@156
+[365536][V][Parsing.cpp:314] _parseArguments(): arg 5 key: iwcApTimeout value: 10
+[365536][V][Parsing.cpp:303] _parseArguments(): pos 157 =@159 &@163
+[365537][V][Parsing.cpp:314] _parseArguments(): arg 6 key: fd value: 200
+[365538][V][Parsing.cpp:303] _parseArguments(): pos 164 =@166 &@184
+[365538][V][Parsing.cpp:314] _parseArguments(): arg 7 key: fs value: VGA (640x480)
+[365539][V][Parsing.cpp:303] _parseArguments(): pos 185 =@186 &@189
+[365540][V][Parsing.cpp:314] _parseArguments(): arg 8 key: q value: 14
+[365540][V][Parsing.cpp:303] _parseArguments(): pos 190 =@191 &@193
+[365541][V][Parsing.cpp:314] _parseArguments(): arg 9 key: b value: 0
+[365541][V][Parsing.cpp:303] _parseArguments(): pos 194 =@195 &@197
+[365542][V][Parsing.cpp:314] _parseArguments(): arg 10 key: c value: 0
+[365542][V][Parsing.cpp:303] _parseArguments(): pos 198 =@199 &@201
+[365543][V][Parsing.cpp:314] _parseArguments(): arg 11 key: s value: 0
+[365544][V][Parsing.cpp:303] _parseArguments(): pos 202 =@203 &@210
+[365544][V][Parsing.cpp:314] _parseArguments(): arg 12 key: e value: Normal
+[365545][V][Parsing.cpp:303] _parseArguments(): pos 211 =@213 &@222
+[365545][V][Parsing.cpp:314] _parseArguments(): arg 13 key: wb value: selected
+[365546][V][Parsing.cpp:303] _parseArguments(): pos 223 =@227 &@236
+[365547][V][Parsing.cpp:314] _parseArguments(): arg 14 key: awbg value: selected
+[365547][V][Parsing.cpp:303] _parseArguments(): pos 237 =@240 &@245
+[365548][V][Parsing.cpp:314] _parseArguments(): arg 15 key: wbm value: Auto
+[365548][V][Parsing.cpp:303] _parseArguments(): pos 246 =@248 &@257
+[365549][V][Parsing.cpp:314] _parseArguments(): arg 16 key: ec value: selected
+[365550][V][Parsing.cpp:303] _parseArguments(): pos 258 =@262 &@271
+[365550][V][Parsing.cpp:314] _parseArguments(): arg 17 key: aec2 value: selected
+[365551][V][Parsing.cpp:303] _parseArguments(): pos 272 =@275 &@277
+[365551][V][Parsing.cpp:314] _parseArguments(): arg 18 key: ael value: 0
+[365552][V][Parsing.cpp:303] _parseArguments(): pos 278 =@282 &@286
+[365553][V][Parsing.cpp:314] _parseArguments(): arg 19 key: aecv value: 300
+[365553][V][Parsing.cpp:303] _parseArguments(): pos 287 =@289 &@298
+[365554][V][Parsing.cpp:314] _parseArguments(): arg 20 key: gc value: selected
+[365554][V][Parsing.cpp:303] _parseArguments(): pos 299 =@303 &@305
+[365555][V][Parsing.cpp:314] _parseArguments(): arg 21 key: agcg value: 0
+[365556][V][Parsing.cpp:303] _parseArguments(): pos 306 =@309 &@312
+[365556][V][Parsing.cpp:314] _parseArguments(): arg 22 key: gcl value: 2X
+[365557][V][Parsing.cpp:303] _parseArguments(): pos 313 =@316 &@325
+[365557][V][Parsing.cpp:314] _parseArguments(): arg 23 key: wpc value: selected
+[365558][V][Parsing.cpp:303] _parseArguments(): pos 326 =@328 &@337
+[365559][V][Parsing.cpp:314] _parseArguments(): arg 24 key: rg value: selected
+[365559][V][Parsing.cpp:303] _parseArguments(): pos 338 =@342 &@351
+[365560][V][Parsing.cpp:314] _parseArguments(): arg 25 key: lenc value: selected
+[365561][V][Parsing.cpp:303] _parseArguments(): pos 352 =@355 &@-1
+[365561][V][Parsing.cpp:314] _parseArguments(): arg 26 key: dcw value: selected
+[365562][V][Parsing.cpp:321] _parseArguments(): args count: 27
+[365562][V][Parsing.cpp:220] _parseRequest(): Plain: iotSave=true&iwcThingName=ESP32CAM-RTSP-7c3789da3bd8&iwcApPassword=autobonics%4027&iwcWifiSsid=Autobonics_4G&iwcWifiPassword=autobonics%4027&iwcApTimeout=10&fd=200&fs=VGA+%28640x480%29&q=14&b=0&c=0&s=0&e=Normal&wb=selected&awbg=selected&wbm=Auto&ec=selected&aec2=selected&ael=0&aecv=300&gc=selected&agcg=0&gcl=2X&wpc=selected&rg=selected&lenc=selected&dcw=selected
+[365565][V][Parsing.cpp:260] _parseRequest(): Request: /config
+[365566][V][Parsing.cpp:261] _parseRequest():  Arguments: iotSave=true&iwcThingName=ESP32CAM-RTSP-7c3789da3bd8&iwcApPassword=autobonics%4027&iwcWifiSsid=Autobonics_4G&iwcWifiPassword=autobonics%4027&iwcApTimeout=10&fd=200&fs=VGA+%28640x480%29&q=14&b=0&c=0&s=0&e=Normal&wb=selected&awbg=selected&wbm=Auto&ec=selected&aec2=selected&ael=0&aecv=300&gc=selected&agcg=0&gcl=2X&wpc=selected&rg=selected&lenc=selected&dcw=selected
+Form validation result is: positive
+Updating configuration
+[iwcSys]
+|-- 'iwcThingName' with value: 'ESP32CAM-RTSP-7c3789da3bd8'
+|-- 'iwcApPassword' with value: <hidden>
+|-- [iwcWifi0]
+|   |-- 'iwcWifiSsid' with value: ''
+|   \-- 'iwcWifiPassword' with value: <hidden>
+\-- 'iwcApTimeout' with value: '30'
+[iwcCustom]
+\-- [camera]
+    |-- 'fd' with value: '200'
+    |-- 'fs' with value: 'VGA (640x480)'
+    |-- 'q' with value: '14'
+    |-- 'b' with value: '0'
+    |-- 'c' with value: '0'
+    |-- 's' with value: '0'
+    |-- 'e' with value: 'Normal'
+    |-- 'wb' with value: '1'
+    |-- 'awbg' with value: '1'
+    |-- 'wbm' with value: 'Auto'
+    |-- 'ec' with value: '1'
+    |-- 'aec2' with value: '1'
+    |-- 'ael' with value: '0'
+    |-- 'aecv' with value: '300'
+    |-- 'gc' with value: '1'
+    |-- 'agcg' with value: '0'
+    |-- 'gcl' with value: '2X'
+    |-- 'bpc' with value: '0'
+    |-- 'wpc' with value: '1'
+    |-- 'rg' with value: '1'
+    |-- 'lenc' with value: '1'
+    |-- 'hm' with value: '0'
+    |-- 'vm' with value: '0'
+    |-- 'dcw' with value: '1'
+    \-- 'cb' with value: '0'
+
+iwcThingName: ESP32CAM-RTSP-7c3789da3bd8
+iwcApPassword: <updated>
+iwcWifiSsid: Autobonics_4G
+iwcWifiPassword: <updated>
+iwcApTimeout: 10
+fd: 200
+fs: VGA (640x480)
+q: 14
+b: 0
+c: 0
+s: 0
+e: Normal
+wb: selected
+awbg: selected
+wbm: Auto
+ec: selected
+aec2: selected
+ael: 0
+aecv: 300
+gc: selected
+agcg: 0
+gcl: 2X
+bpc: not selected
+wpc: selected
+rg: selected
+lenc: selected
+hm: not selected
+vm: not selected
+dcw: selected
+cb: not selected
+Config version: 1.6
+Config size: 333
+Saving configuration
+[iwcAll]
+|-- [iwcSys]
+|   |-- 'iwcThingName' with value: 'ESP32CAM-RTSP-7c3789da3bd8'
+|   |-- 'iwcApPassword' with value: <hidden>
+|   |-- [iwcWifi0]
+|   |   |-- 'iwcWifiSsid' with value: 'Autobonics_4G'
+|   |   \-- 'iwcWifiPassword' with value: <hidden>
+|   \-- 'iwcApTimeout' with value: '10'
+|-- [iwcCustom]
+|   \-- [camera]
+|       |-- 'fd' with value: '200'
+|       |-- 'fs' with value: 'VGA (640x480)'
+|       |-- 'q' with value: '14'
+|       |-- 'b' with value: '0'
+|       |-- 'c' with value: '0'
+|       |-- 's' with value: '0'
+|       |-- 'e' with value: 'Normal'
+|       |-- 'wb' with value: '1'
+|       |-- 'awbg' with value: '1'
+|       |-- 'wbm' with value: 'Auto'
+|       |-- 'ec' with value: '1'
+|       |-- 'aec2' with value: '1'
+|       |-- 'ael' with value: '0'
+|       |-- 'aecv' with value: '300'
+|       |-- 'gc' with value: '1'
+|       |-- 'agcg' with value: '0'
+|       |-- 'gcl' with value: '2X'
+|       |-- 'bpc' with value: '0'
+|       |-- 'wpc' with value: '1'
+|       |-- 'rg' with value: '1'
+|       |-- 'lenc' with value: '1'
+|       |-- 'hm' with value: '0'
+|       |-- 'vm' with value: '0'
+|       |-- 'dcw' with value: '1'
+|       \-- 'cb' with value: '0'
+\-- [hidden]
+
+[365588][V][main.cpp:316] on_config_saved(): on_config_saved
+[365588][E][main.cpp:267] update_camera_settings(): Unable to get camera sensor
+State changing from: 1 to 3
+5608][V][ricent_cb(): f1:3a:19:75:89, AID: 2
+[365609WiFiic.cpuden
+eric.cpp:1040] _eventCallback(): Arduino Event: 13 - AP_STADISCONNECTED
+[365611][D][WiFiGeneric.cpp:1040] _eventC3: Ar6duino Ev[-W iAFPi_GSeTnOeP
+ric.cpp:393] no_AP Started
+[365612][D][WiFiGeneric.cpp:1040] _eventCallba5E ck((): A373r1duino 0Even1) t:w 10 - iAP_START
+fi_init_default: netstack cb reg failed with 12308
+][V][WiFipp:396] _arduino_event_cb(): AP topped
+[365614][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 11 - AP_STOP
+Connecting to [Autobonics_4G] (password is hidden)
+WiFi timeout (ms): 30000
+[365723][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 0 - WIFI_READY
+5728][V][WiFiGeneric.cpp:341] _arduino_event_cb(): STA Started
+[365736][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 2 - STA_START
+[365748][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+State changed from: 1 to 3
+): SD: b4:a7SK
+[367652][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+enerp:370]:192.168.29.146
+[370858][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[370858][D][WiFiGeneric.cpp:1103] _eventCallback(): STA IP: 192.168.29.146, MASK: 255.255.255.0, GW: 192.168.29.1
+WiFi connected
+IP address: 192.168.29.146
+State changing from: 3 to 4
+[373961][W][ESPmDNS.cpp:222] queryService(): No results found!
+Active mDNS services: 0 
+Accepting connection
+[373963][V][main.cpp:306] on_connected(): on_connected
+[373963][E][main.cpp:311] on_connected(): Not starting RTSP server: camera not initialized
+State changed from: 3 to 4
+[416826][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[416828][V][Parsing.cpp:122] _parseRequest(): method: GET url: / search: 
+[416828][V][Parsing.cpp:249] _parseRequest(): headerName: Host
+[416829][V][Parsing.cpp:250] _parseRequest(): headerValue: 192.168.29.146
+[416830][V][Parsing.cpp:249] _parseRequest(): headerName: Connection
+[416830][V][Parsing.cpp:250] _parseRequest(): headerValue: keep-alive
+[416831][V][Parsing.cpp:249] _parseRequest(): headerName: Cache-Control
+[416831][V][Parsing.cpp:250] _parseRequest(): headerValue: max-age=0
+[416832][V][Parsing.cpp:249] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[416833][V][Parsing.cpp:250] _parseRequest(): headerValue: 1
+[416834][V][Parsing.cpp:249] _parseRequest(): headerName: User-Agent
+[416835][V][Parsing.cpp:250] _parseRequest(): headerValue: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+[416837][V][Parsing.cpp:249] _parseRequest(): headerName: Accept
+[416838][V][Parsing.cpp:250] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[416840][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Encoding
+[416840][V][Parsing.cpp:250] _parseRequest(): headerValue: gzip, deflate
+[416841][V][Parsing.cpp:249] _parseRequest(): headerName: Accept-Language
+[416842][V][Parsing.cpp:250] _parseRequest(): headerValue: en-US,en;q=0.9
+[416842][V][Parsing.cpp:277] _parseArguments(): args: 
+[416843][V][Parsing.cpp:260] _parseRequest(): Request: /
+[416843][V][Parsing.cpp:261] _parseRequest():  Arguments: 
+[416844][V][main.cpp:73] handle_root(): Handle root
+[421630][V][WebServer.cpp:285] handleClient(): New client: client.localIP()=192.168.29.146
+[423994][D][WiFiClient.cpp:536] connected(): Disconnected: RES: 0, ERR: 128
+[423997][D][WiFiClient.cpp:536] connected(): Disconnected: RES: 0, ERR: 128
